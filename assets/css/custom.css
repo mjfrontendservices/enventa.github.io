@@ -109,6 +109,7 @@ header h1{
 
 .ourAvailableItem .description .category{
     font-size: 10px;
+    color: rgb(168, 167, 167);
 }
 
 /* responsive */
