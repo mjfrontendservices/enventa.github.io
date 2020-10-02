@@ -27,4 +27,32 @@ $(document).ready(function () {
         }
     })
 
+    // our availab;e product
+
+    var allProduct;
+    $.getJSON("assets/json/items.json", (data) => {
+        allProduct = data;
+        allProductFunction()
+    })
+
+    function allProductFunction() {
+        var items = $('.items');
+        allProduct.forEach(product => {
+            items.append(`
+                <div class="item">
+                    <div class="img">
+                        <img src="${product.img}" alt="">
+                    </div>
+                    <div class="description">
+                        <h4>${product.productName}</h4>
+                        <p>
+                            <span class="price highlight">${product.price}</span></br>
+                            <span class="category"><i class="fa fa-search"></i> ${product.searches}</span>
+                        </p>
+                    </div>
+                </div>
+            `)
+        })
+    }
+
 })

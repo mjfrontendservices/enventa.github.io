@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "img": "assets/img/heroimgs/girlshopping1.jpg",
+        "productName": "Product Name",
+        "price": "Php 600.00",
+        "searches": "dress, dress for women, spagetti"
+    },
+    {
+        "img": "assets/img/heroimgs/girlshopping1.jpg",
+        "productName": "Product Name",
+        "price": "Php 500.00",
+        "searches": "dress, dress for women, spagetti"
+    }
+]
