@@ -42,9 +42,12 @@ header h1{
     background: black;
 }
 
+.hero .owl-dots{
+    display: none;
+}
+
 .hero img{
     height: 40vh;
-    width: 100%;
 }
 
 /* responsive */
