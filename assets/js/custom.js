@@ -27,6 +27,15 @@ $(document).ready(function () {
         }
     })
 
+    // search bar
+
+    $(".searchInput").on("keyup", function () {
+        var value = $(this).val().toLowerCase();
+        $(".item").filter(function () {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+    });
+
     // our availab;e product
 
     var allProduct;
