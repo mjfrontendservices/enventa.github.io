@@ -1,0 +1,56 @@
+*{
+    margion: 0;
+    padding: 0;
+}
+
+body{
+    display: none;
+}
+
+.wrapper{
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+}
+
+/* globa; Variable */
+
+.highlight{
+    color: #e8491d;
+}
+
+.pink{
+    color: rgb(230, 127, 144);
+}
+
+/*  header */
+
+header{
+    background: rgb(36, 35, 35);
+    color: rgb(165, 161, 161);
+}
+
+header h1{
+    font-family: 'piazzolla';
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+/* hero */
+
+.hero{
+    background: black;
+}
+
+.hero img{
+    height: 40vh;
+    width: 100%;
+}
+
+/* responsive */
+
+@media(max-width: 750px){
+    body{
+        display: block;
+    }
+}
