@@ -96,6 +96,19 @@ header h1{
     margin-left: 10px;
 }
 
+.ourAvailableItem .description h4{
+    color: grey;
+    font-size: 15px;
+}
+
+.ourAvailableItem .description .price{
+    font-size: 12px;
+}
+
+.ourAvailableItem .description .category{
+    font-size: 10px;
+}
+
 /* responsive */
 
 @media(max-width: 750px){
