@@ -74,6 +74,7 @@ header h1{
 
 .ourAvailableItem{
     background: #f4f4f4;
+    padding: 10px 0 10px 0;
 }
 
 .ourAvailableItem .wrapper .item{
@@ -82,15 +83,16 @@ header h1{
 }
 
 .ourAvailableItem .img{
-    width: 20%;
+    width: 30%;
 }
 
 .ourAvailableItem .img img{
     width: 100%;
+    height: 100%;
 }
 
 .ourAvailableItem .description{
-    width: 80%;
+    width: 70%;
     margin-left: 10px;
 }
 
