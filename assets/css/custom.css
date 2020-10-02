@@ -73,13 +73,14 @@ header h1{
 /* ourAvailableItem */
 
 .ourAvailableItem{
-    background: #f4f4f4;
-    padding: 10px 0 10px 0;
+    
 }
 
 .ourAvailableItem .wrapper .item{
     display: flex;
     height: 100px;
+    background: #f4f4f4;
+    padding: 10px 5px 10px 5px;
 }
 
 .ourAvailableItem .img{
@@ -88,6 +89,7 @@ header h1{
 
 .ourAvailableItem .img img{
     width: 100%;
+    border-radius: 10px;
     height: 100%;
 }
 
