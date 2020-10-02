@@ -60,12 +60,38 @@ header h1{
     font-family: 'piazzolla';
 }
 
-.ourAvailableItem p{
+/* p-head */
+
+.p-head .ourProductHead{
     text-align: center;
     font-size: 12px;
     color: grey;
     margin-top: 5px;
     font-style: italic;
+}
+
+/* ourAvailableItem */
+
+.ourAvailableItem{
+    background: #f4f4f4;
+}
+
+.ourAvailableItem .wrapper .item{
+    display: flex;
+    height: 100px;
+}
+
+.ourAvailableItem .img{
+    width: 20%;
+}
+
+.ourAvailableItem .img img{
+    width: 100%;
+}
+
+.ourAvailableItem .description{
+    width: 80%;
+    margin-left: 10px;
 }
 
 /* responsive */
