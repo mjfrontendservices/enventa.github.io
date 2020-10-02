@@ -61,7 +61,9 @@ $(document).ready(function () {
                     </div>
                 </div>
             `)
+            $('.count').text(`${allProduct.length}`);
         })
     }
+
 
 })
