@@ -1,5 +1,11 @@
 [
     {
+        "img": "assets/img/heroimgs/girlshopping4.jpg",
+        "productName": "Product Name",
+        "price": "Php 1000.00",
+        "searches": "dress, dress for women, spagetting pababa"
+    },
+    {
         "img": "assets/img/heroimgs/girlshopping3.jpg",
         "productName": "Product Name",
         "price": "Php 6560.00",
