@@ -72,15 +72,13 @@ header h1{
 
 /* ourAvailableItem */
 
-.ourAvailableItem{
-    
-}
-
 .ourAvailableItem .wrapper .item{
     display: flex;
     height: 100px;
     background: #f4f4f4;
     padding: 10px 5px 10px 5px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .ourAvailableItem .img{
