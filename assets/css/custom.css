@@ -80,7 +80,7 @@ header h1{
     width: 95%;
     margin: auto;
     margin-bottom: 10px;
-    box-shadow: #000 0 0 5px;
+    box-shadow: grey 0 0 5px;
 }
 
 .ourAvailableItem .img{
