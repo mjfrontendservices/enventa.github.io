@@ -112,6 +112,16 @@ header h1{
     color: rgb(168, 167, 167);
 }
 
+/* footer */
+
+footer{
+    padding: 10px 0 10px 0;
+    background:rgb(36, 35, 35);
+    color: rgb(165, 161, 161);
+    text-align: center;
+    font-size: 10px;
+}
+
 /* responsive */
 
 @media(max-width: 750px){
