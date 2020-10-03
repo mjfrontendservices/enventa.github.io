@@ -70,7 +70,7 @@ $(document).ready(function () {
                                 <span>
                                     ${productModal.description}
                                 </span></br>
-                                <a href="sms: 09978972884?body=Hi, I want to orer ${productModal.productName}">
+                                <a href="sms: 09978972884?body=Hi, I want to order ${productModal.productName}">
                                     <button class="inquire">Order Now!</button>
                                 </a>
                             </p>
