@@ -1,0 +1,13 @@
+[
+    {
+        "productIdTarget": "product",
+        "img1": "assets/img/heroimgs/girlshopping1.jpg",
+        "img2": "assets/img/heroimgs/girlshopping2.jpg",
+        "img3": "assets/img/heroimgs/girlshopping3.jpg",
+        "img4": "assets/img/heroimgs/girlshopping4.jpg",
+        "img5": "assets/img/heroimgs/girlshopping5.jpg",
+        "productName": "Product Name",
+        "price": "Php 500.00",
+        "description": "Hola! Are you looking for a product that you haven't found in our store? Let us know! Maybe we can provide you."
+    }
+]

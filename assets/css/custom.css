@@ -226,6 +226,15 @@ footer{
     height: 40vh;
 }
 
+.modal-body h6{
+    font-size: 15px;
+}
+
+.modal-body .price{
+    font-size: 13px;
+    color: pink;
+}
+
 /* responsive */
 
 @media(max-width: 750px){
