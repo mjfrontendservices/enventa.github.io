@@ -1,9 +1,30 @@
 [
     {
-        "productId": "#product",
-        "img": "assets/img/heroimgs/girlshopping1.jpg",
-        "productName": "Product Name",
-        "price": "Php 500.00",
-        "searches": "dress, dress for women, spagetti"
+        "productId": "#coupleshort1",
+        "img": "assets/img/dress/2ternoshort1.jpg",
+        "productName": "Couple Short",
+        "price": "Php 300.00",
+        "searches": "couple, couple shorts"
+    },
+    {
+        "productId": "#terno1",
+        "img": "assets/img/dress/1terno1.jpg",
+        "productName": "Terno",
+        "price": "Php 300.00",
+        "searches": "terno, terno dress"
+    },
+    {
+        "productId": "#short1",
+        "img": "assets/img/dress/1short1.jpg",
+        "productName": "Short for Men",
+        "price": "Php 350.00",
+        "searches": "shirt for men, short"
+    },
+    {
+        "productId": "#coupledress",
+        "img": "assets/img/dress/1couple1.jpg",
+        "productName": "Couple Shirt",
+        "price": "Php 220.00",
+        "searches": "couple shirt, dress, dress for women, dress for man, dress for man and woman"
     }
 ]

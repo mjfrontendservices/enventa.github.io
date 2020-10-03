@@ -1,13 +1,46 @@
 [
     {
-        "productIdTarget": "product",
-        "img1": "assets/img/heroimgs/girlshopping1.jpg",
-        "img2": "assets/img/heroimgs/girlshopping2.jpg",
-        "img3": "assets/img/heroimgs/girlshopping3.jpg",
-        "img4": "assets/img/heroimgs/girlshopping4.jpg",
-        "img5": "assets/img/heroimgs/girlshopping5.jpg",
-        "productName": "Product Name",
-        "price": "Php 500.00",
-        "description": "Hola! Are you looking for a product that you haven't found in our store? Let us know! Maybe we can provide you."
+        "productIdTarget": "coupleshort1",
+        "img1": "assets/img/dress/2ternoshort1.jpg",
+        "img2": "assets/img/dress/2ternoshort2.jpg",
+        "img3": "assets/img/dress/2ternoshort3.jpg",
+        "img4": "assets/img/dress/2ternoshort4.jpg",
+        "img5": "assets/img/dress/2ternoshort5.jpg",
+        "productName": "Couple Short",
+        "price": "Php 300.00",
+        "description": "Couple shorts for couples out there. Available :) . Click the button below to place an order."
+    },
+    {
+        "productIdTarget": "terno1",
+        "img1": "assets/img/dress/1terno1.jpg",
+        "img2": "assets/img/dress/1terno2.jpg",
+        "img3": "assets/img/dress/1terno3.jpg",
+        "img4": "assets/img/dress/1terno4.jpg",
+        "img5": "assets/img/dress/1terno5.jpg",
+        "productName": "Terno",
+        "price": "Php 300.00",
+        "description": "Terno dress at any size. Available :) . Click the button below to place an order."
+    },
+    {
+        "productIdTarget": "short1",
+        "img1": "assets/img/dress/1short1.jpg",
+        "img2": "assets/img/dress/1short2.jpg",
+        "img3": "assets/img/dress/1short3.jpg",
+        "img4": "assets/img/dress/1short4.jpg",
+        "img5": "assets/img/dress/1short3.jpg",
+        "productName": "Short for Men",
+        "price": "Php 350.00",
+        "description": "Shorts for men. Click the button below to place an order."
+    },
+    {
+        "productIdTarget": "coupledress",
+        "img1": "assets/img/dress/1couple1.jpg",
+        "img2": "assets/img/dress/1couple2.jpg",
+        "img3": "assets/img/dress/1couple1.jpg",
+        "img4": "assets/img/dress/1couple2.jpg",
+        "img5": "assets/img/dress/1couple1.jpg",
+        "productName": "Couple Shirt",
+        "price": "Php 250.00",
+        "description": "Couple shirt for couple out there. Click the button below to place an order."
     }
 ]
