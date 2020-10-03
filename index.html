@@ -66,7 +66,9 @@
 
     <section class="buttons">
         <div class="container">
-            <div class="btn1"><button><i class="fa fa-cart-plus"></i> Inquire a Product</button></div>
+            <div class="btn1"><button data-toggle="modal" data-target="#inquire"><i class=" fa fa-cart-plus"></i>
+                    Inquire
+                    a Product</button></div>
             <div class="btn2"><button><i class="fa fa-question-circle"></i> Ask Question</button></div>
             <div class="btn3"><button><i class="fa fa-info-circle"></i> About En venta</button></div>
         </div>
@@ -102,6 +104,32 @@
             </p>
         </div>
     </footer>
+
+    <!-- modals -->
+
+    <div id="inquire" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h5><i class="fa fa-question-circle"></i> Inquire a Product</h5>
+                    <p>
+                        <span>
+                            Hola! Are you looking for a product that you haven't found in our store? Let us know!
+                        </span>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
     <!-- end of body content -->
 

@@ -177,6 +177,14 @@ footer{
     font-size: 10px;
 }
 
+/* modals */
+
+.modal-body,
+.modal-header,
+.modal-footer{
+    border: none;
+}
+
 /* responsive */
 
 @media(max-width: 750px){
