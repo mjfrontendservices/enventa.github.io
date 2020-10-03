@@ -64,7 +64,7 @@ header h1{
 }
 
 .buttons .btn1 button{
-    background: rgb(36, 35, 35);
+    background: rgb(87, 86, 86);
     color: #fff;
     border: none;
     font-size: 10px;
@@ -81,16 +81,7 @@ header h1{
 
 .buttons .btn2 button{
     background: pink;
-    color: #fff;
-    border: none;
-    font-size: 10px;
-    height: 100%;
-    width: 100%;
-}
-
-.buttons .btn3 button{
-    background: black;
-    color: #fff;
+    color: #000;
     border: none;
     font-size: 10px;
     height: 100%;
@@ -103,6 +94,16 @@ header h1{
     height: 50px;
     width: 33.33%;
 }
+
+.buttons .btn3 button{
+    background: rgb(36, 35, 35);
+    color: #fff;
+    border: none;
+    font-size: 10px;
+    height: 100%;
+    width: 100%;
+}
+
 
 /* searchbar */
 
