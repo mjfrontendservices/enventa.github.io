@@ -50,11 +50,65 @@ header h1{
     height: 40vh;
 }
 
+/* buttons */
+
+.buttons .container{
+    display: flex;
+}
+
+.buttons .btn1{
+    background: red;
+    margin-top: 10px;
+    height: 50px;
+    width: 33.33%;
+}
+
+.buttons .btn1 button{
+    background: rgb(36, 35, 35);
+    color: #fff;
+    border: none;
+    font-size: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.buttons .btn2{
+    background: blue;
+    margin-top: 10px;
+    height: 50px;
+    width: 33.33%;
+}
+
+.buttons .btn2 button{
+    background: pink;
+    color: #fff;
+    border: none;
+    font-size: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.buttons .btn3 button{
+    background: black;
+    color: #fff;
+    border: none;
+    font-size: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.buttons .btn3{
+    background: green;
+    margin-top: 10px;
+    height: 50px;
+    width: 33.33%;
+}
+
 /* searchbar */
 
 .searchbar input{
     width: 100%;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 5px 10px 5px;
     border: none;
     border-bottom: grey 1px solid;
     font-family: 'piazzolla';
