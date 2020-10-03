@@ -27,6 +27,33 @@ $(document).ready(function () {
         }
     })
 
+    // sample slide on product
+
+    $('.modal-body .owl-carousel').owlCarousel({
+        autoplay: true,
+        autoplayTimeout: 3500,
+        autoplayHoverPause: true,
+        loop: true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: false,
+                loop: true
+            },
+            600: {
+                items: 1,
+                nav: false,
+                loop: true
+            },
+            1000: {
+                items: 1,
+                nav: false,
+                loop: true
+            }
+        }
+    })
+
     // search bar
 
     $(".searchInput").on("keyup", function () {
@@ -48,7 +75,7 @@ $(document).ready(function () {
         var items = $('.items');
         allProduct.forEach(product => {
             items.append(`
-                <div class="item">
+                <div class="item" data-toggle="modal" data-target="${product.productId}">
                     <div class="img">
                         <img src="${product.img}" alt="">
                     </div>
