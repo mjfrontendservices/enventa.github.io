@@ -135,7 +135,7 @@ $(document).ready(function () {
                     </div>
                 </div>
             `)
-            $('.count').text(`${allProduct.length}`);
+            $('.count' ).text(`${allProduct.length}`);
         })
     }
 
